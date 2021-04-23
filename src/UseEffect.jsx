@@ -9,7 +9,6 @@ function incNumber(x) {
 }
 
 const TestUseEffect = (_) => {
-  console.log("start");
   const [number, setNumber] = useState(0);
   const [doubleNumber, setRaiseNumber] = useState(0);
 
