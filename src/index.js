@@ -6,7 +6,7 @@ import CountDown from './CountDown.jsx'
 import UseStateTest from './UseStateTest.jsx'
 import Input from './Input.jsx'
 import UseEffect from "./UseEffect"
-import UseRef from "./UseRef"
+import UseReducer from "./UseReducer"
 import dataContext, { data } from "./data/DataContext"
 import UseContext from "./UseContext.jsx"
 
@@ -28,8 +28,11 @@ import UseContext from "./UseContext.jsx"
         <UseStateTest />
         <Input />
         <UseEffect />
-        <UseRef />
+        
         <UseContext />
+        <UseReducer />
+
+
       </dataContext.Provider>
      
       </div>
