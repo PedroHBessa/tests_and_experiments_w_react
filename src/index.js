@@ -9,6 +9,7 @@ import UseEffect from "./UseEffect"
 import UseReducer from "./UseReducer"
 import dataContext, { data } from "./data/DataContext"
 import UseContext from "./UseContext.jsx"
+import Append from "./Append.jsx"
 
 
 
@@ -31,6 +32,7 @@ import UseContext from "./UseContext.jsx"
         
         <UseContext />
         <UseReducer />
+        <Append />
 
 
       </dataContext.Provider>
